@@ -20,6 +20,7 @@
 <script src="<?= base_url("assets/plugins/bootstrap/js/bootstrap.bundle.min.js"); ?>"></script>
 <!-- overlayScrollbars -->
 <script src="<?= base_url("assets/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"); ?>"></script>
+<?= $script; ?>
 <!-- AdminLTE App -->
 <script src="<?= base_url("assets/dist/js/adminlte.min.js"); ?>"></script>
 <!-- AdminLTE for demo purposes

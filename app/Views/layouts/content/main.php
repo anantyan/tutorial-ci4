@@ -32,7 +32,7 @@
                     <!-- Default box -->
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="card-title">Title</h3>
+                            <h3 class="card-title"><?= $title; ?></h3>
 
                             <div class="card-tools">
                                 <button type="button" class="btn btn-tool" data-card-widget="collapse"
@@ -44,7 +44,7 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <?= $message; ?>
+                            <?= view($template); ?>
                         </div>
                     </div>
                     <!-- /.card -->
@@ -55,6 +55,4 @@
     <!-- /.content -->
 </div>
 <!-- /.content-wrapper -->
-<?php
-    echo view('layouts/footer/main');
-?>
+<?= view('layouts/footer/main'); ?>

@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <!-- overlayScrollbars -->
     <link rel="stylesheet" href="<?= base_url("assets/plugins/overlayScrollbars/css/OverlayScrollbars.min.css"); ?>">
+    <?= $style; ?>
     <!-- Theme style -->
     <link rel="stylesheet" href="<?= base_url("assets/dist/css/adminlte.min.css"); ?>">
     <!-- Google Font: Source Sans Pro -->

@@ -15,6 +15,7 @@ namespace App\Controllers;
  */
 
 use CodeIgniter\Controller;
+use \App\Libraries\StyleScript;
 
 class BaseController extends Controller
 {
@@ -27,6 +28,7 @@ class BaseController extends Controller
 	 * @var array
 	 */
 	protected $helpers = [];
+	protected $styleScript;
 
 	/**
 	 * Constructor.
@@ -41,6 +43,7 @@ class BaseController extends Controller
 		//--------------------------------------------------------------------
 		// E.g.:
 		// $this->session = \Config\Services::session();
+		$this->styleScript = new StyleScript();
 	}
 
 }
