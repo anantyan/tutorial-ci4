@@ -28,7 +28,10 @@ class StyleScript {
                 <script src="'.base_url("assets/plugins/datatables/jquery.dataTables.min.js").'"></script>
                 <script src="'.base_url("assets/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js").'"></script>
                 <script src="'.base_url("assets/plugins/datatables-responsive/js/dataTables.responsive.min.js").'"></script>
-                <script src="'.base_url("assets/plugins/datatables-responsive/js/responsive.bootstrap4.min.js").'"></script>';
+                <script src="'.base_url("assets/plugins/datatables-responsive/js/responsive.bootstrap4.min.js").'"></script>
+                <!-- bs-custom-file-input -->
+                <script src="'.base_url("assets/plugins/bs-custom-file-input/bs-custom-file-input.min.js").'"></script>
+                <script src="'.base_url("assets/dist/js/forMahasiswa.js").'"></script>';
                 break;
             
             default:
